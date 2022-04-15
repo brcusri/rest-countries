@@ -1,0 +1,35 @@
+body.dark-mode{
+    color: var(--white);
+    background-color: var(--very-dark-blue-light);
+    nav{
+        background-color: var(--dark-blue);
+        box-shadow: 5px 5px 5px  hsl(208, 19%, 16%);;
+    }
+    .search-box{
+        .search-input{
+            background-color: var(--dark-blue);
+            box-shadow: 5px 5px 5px  hsl(208, 19%, 16%);
+            background-image: url('./../assets/135-search-light.svg');
+            color: var(--white);
+        }
+    }
+    .filter-box{
+        .filter-select{
+            color: var(--white);
+            background: url('./../assets/angle-down-solid-light.svg') no-repeat right var(--dark-blue);
+            box-shadow: 5px 5px 5px  hsl(208, 19%, 16%);
+        }
+    }
+    .card{
+        background-color: var(--dark-blue);
+    }
+    .btn-mid {
+        color: var(--white);
+        background-color: transparent;
+    }
+    .back-btn{
+        color: var(--white);
+        background: url('./../assets/arrow-left-solid-light.svg') no-repeat left var(--dark-blue);
+        background-color: transparent;
+    }
+}
